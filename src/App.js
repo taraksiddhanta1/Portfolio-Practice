@@ -3,6 +3,7 @@ import { PiHandWavingFill } from "react-icons/pi";
 import { CiCircleCheck } from "react-icons/ci";
 import { FaCode, FaFileCode, FaLaptopCode, FaCentercode, FaAccessibleIcon, Fa500Px, FaAccusoft, FaAmazon, FaAddressBook, FaAirbnb, FaStar, FaStarHalfAlt } from "react-icons/fa";
 import image1 from "./images/writer.jpg";
+import image2 from "./images/org-writer-768x768.jpg";
 import c1 from "./images/1.png";
 import c2 from "./images/2.png";
 import c3 from "./images/3.png";
@@ -208,7 +209,7 @@ function App() {
                        
                     </div>
                 </div>
-                <div id="testimonial" className="text-center items-center justify-center">
+                <div id="testimonial" className="text-center items-center justify-center bg-slate-100">
                     <p className="text-indigo-500 font-semibold text-lg  "> {'>>>'} Testimonials</p>
                     <h1 className="text-black font-bold text-4xl"> What Clients Says About Me</h1>
                     <div className="flex m-12">
@@ -255,6 +256,14 @@ function App() {
 
                         </div>
 
+                    </div>
+                </div>
+                <div id="whoAmI" className="flex  items-center bg-indigo-50">
+                    <img src={image2}  className="p-8 m-8 h-1/3 w-1/3 rounded-full" />
+                    <div className="text-left mr-8">
+                    <PiHandWavingFill className="text-indigo-500 text-6xl shadow-sm mb-4" /> 
+                    <p className="text-4xl font-bold mb-6">Who I Am</p>
+                    <p className="text-left text-2xl mr-2 text-gray-500">I'm Tarak Siddhanta, a Freelance English Creative Copywriter, Content Writer and Communications Consultant based in New York, USA. By better copying, I create value for the companies. I have spent more than 25 + years at various copywriting agencies, advertising, public relations and digital agencies, and most recently as a freelance copywriter for brands and businesses, honing my creative writing skills.</p>
                     </div>
                 </div>
 
